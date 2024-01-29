@@ -12,20 +12,17 @@ const styles = StyleSheet.create({
     resizeMode: 'cover', // ou 'contain' dependendo do comportamento desejado
   },
   container: {
-      flex: 1,
-      backgroundColor: '#f0f0f0',
+    flex:1,
+    backgroundColor: '#f0f0f0',
   },
-  scrollView: {
-    flex: 1,
-    margin: 10,
-  },
+
   card: {
     backgroundColor: '#ffffff',
     borderRadius: 8,
     padding: 16,
     marginBottom: 10,
-    elevation: 3,
   },
+  
   cardTitle: {
     fontSize: 18,
     fontWeight: 'bold',

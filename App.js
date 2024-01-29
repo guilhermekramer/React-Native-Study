@@ -1,21 +1,13 @@
 import { StyleSheet } from 'react-native';
 import HomePage from './src/components/home/HomePage';
 import { NavigationContainer } from '@react-navigation/native';
+import MyDrawer from './src/components/drawer/Drawer';
 
 export default function App() {
   return (
     <NavigationContainer>
-      <HomePage/>
+      <MyDrawer/>
     </NavigationContainer>
    
-  );
+);
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
